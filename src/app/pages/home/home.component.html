@@ -1,9 +1,33 @@
 <app-menu-title></app-menu-title>
-<div class="articles">
+<div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
-  </div>
-  <div class="articles__others">
-
+    <app-big-card
+      [id]="'1'"
+      [cardTitle]="'Lançamento do novo Iphone 15 ocorre em setembro'"
+      [photoCover]="
+      'https://ichef.bbci.co.uk/news/640/cpsprodpb/cb0f/live/ba842770-50c0-11ee-85dc-112650793d98.jpg'
+      "
+      ></app-big-card>
+    </div>
+    <div class="articles__others">
+      <app-small-card
+      [id]="2"
+      [cardTitle]="'Equipes de desenvolvimento'"
+      [photoCover]="
+      'https://blog.leucotron.com.br/wp-content/uploads/2021/10/a-importancia-da-tecnologia-da-informacao-nas-empresas.jpeg'
+      "
+      ></app-small-card>
+      <app-small-card
+      [id]="3"
+      [cardTitle]="'IA\'s'"
+      [photoCover]="'https://www.anchieta.br/hubfs/shutterstock_1927651358.jpg'"
+      ></app-small-card>
+      <app-small-card
+      [id]="4"
+      [cardTitle]="'Conserto Hardware'"
+      [photoCover]="
+        'https://blog.contaazul.com/wp-content/uploads/2023/04/6-ideias-de-empresas-de-tecnologia-para-voce-se-inspirar-1.jpg'
+      "
+    ></app-small-card>
   </div>
 </div>

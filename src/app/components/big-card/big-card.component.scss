@@ -1,5 +1,5 @@
 .container__big-card {
-  border: solid 1px white;
+  // border: solid 1px white;
   margin-left: 20px;
   margin-right: 20px;
   width: 400px;
@@ -7,8 +7,11 @@
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+
+  img {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .big-card__title {
@@ -23,4 +26,9 @@
     margin-top: 10px;
     color: gray;
   }
+}
+
+.big-card__photo {
+  width: 100%;
+  min-width: 400px;
 }
